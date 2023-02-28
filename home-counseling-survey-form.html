@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta lang="en">
+<link rel="stylesheet" href='styles.css'>
+</head>
+<body>
+  <header class='header'>
+    <h1 id='title'>HOME COUNSELING</h1>
+    <h2 id='subtitle'>How can I help You?</h2>
+    <p id= "description" class='discription text-center'>Take a time to share your issue so we can come up with a possible solution</p>
+  </header>
+<div class="container">
+  <form id='survey-form'>
+    <label id= 'name-label' for="name">
+  Name</label><input id='name' class='form' type='text' placeholder='enter your name' required="">
+    <label id='email-label'  for='email'>
+  Email</label><input id='email' class='form' type='email' placeholder='enter a valid email' required="">
+    <label id='number-label' for='age'>Age
+      <span class='clue'>(optional)</span>
+    </label><input id='number' class='form' type='number' min='7' max='120' placeholder='age'>
+    <p id='typeOfIssue'>What kind of issue do you have?</label>
+    <select id='dropdown' class='kindOfIssues'>
+      <option disabled='' selected='' value=''>Choose one option</option>
+      <option value='emotional'>Emotional</option>
+      <option value='financial'>Financial</option>
+      <option value='marriage'>Marriage</option>
+      <option value='work'>Work</option>
+      <option value='school'>School/College</option>
+      <option value='spiritual'>Spiritual</option>
+      <option value='other'>Other</option>
+  </select>
+    <p id='howOften'>How often do you face such an issue?<p>
+    <label for='frequency'><input name= 'howOftern" class='frequency' type='radio' value='all-the-time' checked=''>All the time</label>
+    <label for='frequency'><input name= 'howOftern" class='frequency' type='radio' value='almost-always' checked=''>Almost always</label>
+    <label for='frequency'><input name= 'howOftern" class='frequency' type='radio' value='frequently' checked=''>Frequently</label>
+    <label for='frequency'>
+    <input name= 'howOftern" class='frequency' type='radio' value='almost-never' checked=''>Almost never</label>
+    <p>Check here the help resources you have already sought <span class='clue'>(more than one option is valid)</span></p>    
+    <label>
+      <div class='checkbox'>
+      <input type='checkbox' value='psychologist'> Consult a Psychologist
+      </div>
+      <div class='checkbox'>
+      <input type='checkbox' value='phychiatrist'> Consult a Psychiatrist
+      </div>
+      <div class='checkbox'>
+      <input type='checkbox' value='religion-instituitions'> Religion instituitions
+      </div>
+      <div class='checkbox'>
+      <input type='checkbox' value='books'> Books
+      </div>
+      <div class='checkbox'>
+      <input type='checkbox' value='videos'> Videos 
+      </div>
+      <div class='checkbox'>
+      <input type='checkbox' value='mentors'> Mentors
+      </div>
+      <div class='checkbox'>
+      <input type='checkbox' value='forums'> Forums
+      </div>
+      <div class='checkbox'>
+      <input type='checkbox' value='others'> Others
+      </div>
+      <div class='checkbox'>
+      <input type='checkbox' value='no-help'> Never sought any help
+      </div>
+    </label>
+    <label for='issue'>
+  Describe your issue
+    <label for='issue'><textarea id='issue' type='text' placeholder='describe the best you can...' ></textarea>
+
+    <button id='submit' class='submit-button' type='submit'>Submit</button>
+  </form>
+</div>
+</body>
+</html>
