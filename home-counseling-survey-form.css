@@ -1,0 +1,79 @@
+body{
+background-color:  rgba(30,20,100,0.8);
+background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.2107244:1590231272/ilustrac-o-autodesenvolvimento.jpg?f=16x9&h=720&q=0.8&w=1280&$p$f$h$q$w=3918317);
+}
+
+header{
+background-color: rgba(30,20,100,0.9);
+color: #f3f3f3;
+font-family: Poppins,sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 1.4;
+text-align: center;
+padding: 4px;
+margin: 1%;
+border-style: solid;
+}
+
+.container{
+  background-color: rgba(27,27,50, 0.95);
+color: #f3f3f3;
+font-family: Poppins,sans-serif;
+font-weight: 400;
+line-height: 1.4;
+padding: 4px;
+margin: 1%;
+border-style: none;
+}
+
+.discription{
+  font-style: italic;
+  display: block;
+  text-align: center;
+}
+
+label{
+align-items: center;
+font-size: 1.125rem;
+margin: 1em;
+display: block;
+}
+
+.checkbox{
+  display: block;
+  margin-top: 2px;
+}
+.clue{
+  font-size: 12px;
+}
+
+#issue{
+  min-width: 100%;
+}
+
+.form{
+  min-width: 95%;
+  margin: auto;
+  padding: 3;
+  margin-left: 2.5%;
+}
+
+p{
+  min-width: 95%;
+  margin: auto;
+  font-size: 1.25em;
+  padding: 3;
+  margin: 2.5%;
+}
+
+.submit-button{
+  margin-top: 20px;
+  background-color: rgb(003,200, 085) ;
+  min-width: 100%;
+  padding: 8px;
+  color: #f3f3f3;
+  font-size: 0.98em;
+  font-family: Poppins, sans-serif;
+  border-style: none;
+}
