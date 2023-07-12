@@ -7,31 +7,50 @@
 <body>
 <img src="https://www.portalsaude.com.br/tim.php?src=uploads/services/2022/01/capa-drogaria-economica-1643050583.png&w=1600&h=800" alt = "logo da Drogaria"></img>
 
-<table border = '1'>
-    <tr className='titulo' border='0'>
-        <td>      </td>
-        <td>     </td>
-        <td>Manhã</td>
-        <td>     </td>
-        <td>     </td>
-        <td>     </td>
-        <td>     </td>
-        <td>     </td>
-        <td>Tarde</td>
-        <td>     </td>
-    </tr>
-    <tr>
-        <td>Dia  </td>
-        <td>Temp. Max</td>
-        <td>Temp. Min</td>
-        <td>Temp. Atual</td>
-        <td>Umidade   </td>
-        <td>          </td>
-        <td>Temp. Max</td>
-        <td>Temp. Min</td>
-        <td>Temp. Atual</td>
-        <td>Umidade</td>
-    </tr>
+<div id = "medicao">
+    <form name = "temp-e-umi">
+        <label>Dia</label><br/>
+        <input type="text" name = "dia"/><br/>
+        <label>Temp. Máxima</label><br/>
+        <input type="text" name = "maxima"/><br/>
+        <label>Temp. Mínima</label><br/>
+        <input type="text" name = "minima"/><br/>
+        <label>Temp. Momento</label><br/>
+        <input type="text" name = "momento"/><br/>
+        <label>Umidade</label><br/>
+        <input type="text" name = "umidade"/><br/>
+
+    </form>
+    <br/>
+    
+</div id = 'dados'>
+    <table id = 'tabela'>
+        <thead>
+            <tr className='titulo' border='0'>
+                <td>      </td>
+                <td>     </td>
+                <td>Manhã</td>
+                <td>     </td>
+                <td>     </td>
+                <td>     </td>
+                <td>     </td>
+                <td>     </td>
+                <td>Tarde</td>
+                <td>     </td>
+            </tr>
+            <tr>
+                <td>Dia  </td>
+                <td>Temp. Max</td>
+                <td>Temp. Min</td>
+                <td>Temp. Momento</td>
+                <td>Umidade   </td>
+                <td>          </td>
+                <td>Temp. Max</td>
+                <td>Temp. Min</td>
+                <td>Temp. Momento</td>
+                <td>Umidade</td>
+            </tr>
+     </thead>
     <div className='dados'>
     <tr className='dia1'>
         <td class='dia'>1</td>
