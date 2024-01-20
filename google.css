@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    font-family: Trebuchet MS;
+}
+
+#g{
+    color: #4285F4;
+}
+
+#o1{
+    color: #EA4335;
+}
+
+#o2{
+    color: #FBBC05;
+}
+
+#l{
+    color: #34A853;
+}
+
+#e{
+    color: #EA4335;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    background-image:(<'https://fontawesome.com/icons/magnifying-glass?f=sharp&s=light'>#)
+    display: flex;
+    width: 50vw;
+    border-radius: 20px;
+    border-style: outset; 
+    border-color: grey;
+    height: 50px;
+}
+
+section2{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw;
+}
+
+.icon{
+    width: 50px;
+    padding: 50px;
+    border-radius: 80px;
+}
