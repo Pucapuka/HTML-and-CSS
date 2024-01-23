@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jogo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.a1,
+.a2,
+.b1,
+.b2 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.a3,
+.b3 {
+    border-bottom: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.c1,
+.c2 {
+    border-right: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.placar {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.placarSimb {
+    display: flex;
+}
+
+.O {
+    font-family: Verdana;
+    font-size: 40px;
+    color: green;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.X {
+    font-family: Verdana;
+    font-size: 40px;
+    color: red;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.Simbolo-e-valor0,
+.Simbolo-e-valorX {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.valorO {
+    margin-left: 10px;
+}
+
+
+.valorX {
+    margin-left: 50px;
+}
