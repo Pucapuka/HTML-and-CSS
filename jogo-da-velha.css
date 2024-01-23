@@ -83,3 +83,18 @@ body {
 .valorX {
     margin-left: 50px;
 }
+
+.button-a1,
+.button-a2,
+.button-a3,
+.button-b1,
+.button-b2,
+.button-b3,
+.button-c1,
+.button-c2,
+.button-c3{
+	width: 100px;
+    height: 100px;
+  	background-color: white;
+  	border: 0;
+}
