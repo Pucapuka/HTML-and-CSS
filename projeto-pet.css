@@ -1,0 +1,46 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+    padding-left: 10px;
+}
+
+span{
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrap{
+    border: 2px solid black;
+    width: 1030px;
+}
+
+.option-wrap{
+    border: 2px solid black;
+    width: 205px;
+    height: 100px;
+}
+
+.funcao{
+    width: 200px;
+    padding: 0;
+    border: 0;
+}
+
+.all-options{
+    display: flex;
+    margin: 0;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+#sair{
+    border-color: white;
+}
