@@ -6,7 +6,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <title>Browser</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <title>Pet Planet</title>
 </head>
 
 <body>
@@ -19,12 +20,24 @@
   				</h1>
             </div>
             <div id='img-wrap'>
-          		<img id='logo' src="logo-pet.jpeg"></img>
+          		<img id='logo' src="logo-pet-shop.jpeg"></img>
             </div>
     	</div>
-       <div class='login'>
+       <div>
       	<label for='user'>
-        	<input id='user' placeholder = "Usuário" type='text'></input>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        
+        	<input class="login" id='user' placeholder = "       Usuário       " type='text'></input>
+      	</label>
+       </div>
+       <div>
+      	<label for='password'>
+        	<input class="login" id='password' placeholder = "        Senha        " type='text'></input>
+      	</label>
+  	  </div>
+      <div>
+      	<label for='password'>
+        	<button class="button" id='send-button' placeholder = "Senha" type='submit' value="login">login</button>
       	</label>
   	  </div>
     </div>
